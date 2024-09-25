@@ -1,37 +1,45 @@
-# 🚀 Mi Trabajo en Java: Definición de Clases, Creación de Constructores e Instanciación de Objetos
+# 🏥 Sistema de Gestión Hospitalaria
 
-¡Hola! 👋 Este es un proyecto personal donde estoy trabajando en los fundamentos de Java: cómo definir una clase, crear un constructor e instanciar objetos. Acompáñame en este viaje para entender mejor estos conceptos y cómo se aplican en el desarrollo de software. 🎉
+## 🌟 Descripción General
 
-## 📋 Tabla de Contenidos
+Este sistema ofrece una plataforma poderosa para la gestión eficiente de **pacientes**, **médicos**, **consultorios** y **consultas** en un hospital. Diseñado para ser simple y funcional, facilita las operaciones diarias con opciones intuitivas de registro y visualización.
 
-1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
-2. [Conceptos Clave](#-conceptos-clave)
-   - [Clase](#clase)
-   - [Constructor](#constructor)
-   - [Instanciación de Objetos](#instanciación-de-objetos)
-3. [Ejemplo Práctico](#-ejemplo-práctico)
-4. [Cómo Ejecutar](#-cómo-ejecutar)
-5. [Contribuciones](#-contribuciones)
+## 🚀 Funcionalidades Principales
 
-## 🎯 Objetivo del Proyecto
+### 1️⃣ **Registro de Pacientes**
+- Captura de datos personales completos, como nombre, apellidos, fecha de nacimiento, tipo de sangre, sexo y teléfono.
+- Asignación automática de un **ID único** para cada paciente.
 
-El objetivo de este proyecto es demostrar mi comprensión sobre:
-- **Definir una clase en Java.**
-- **Crear un constructor adecuado para la inicialización de los objetos.**
-- **Instanciar objetos a partir de la clase y usar sus métodos.**
+### 2️⃣ **Registro de Médicos**
+- Registro detallado de médicos con información como nombre, apellidos, fecha de nacimiento, teléfono y RFC.
+- Generación automática de **ID de médico** basado en apellidos y fecha de nacimiento.
 
-## 📘 Conceptos Clave
+### 3️⃣ **Registro de Consultorios**
+- Registro del piso y número del consultorio.
+- Cada consultorio tiene un **ID único** generado automáticamente para fácil identificación.
 
-### Clase
+### 4️⃣ **Gestión de Consultas**
+- **🔄 Crear Consultas**: Registra citas médicas especificando fecha, hora, paciente, médico y consultorio asignado.
+- **👁️ Mostrar Consultas**: Visualiza todas las consultas registradas con detalles como ID, fecha/hora, paciente, médico y consultorio.
 
-Una **clase** en Java es la estructura fundamental para crear objetos. Define atributos y métodos que describen el comportamiento y el estado de los objetos que se crearán a partir de ella.
+## 📋 Menú Interactivo
 
-### Constructor
+Este sistema ofrece un menú sencillo que te permite realizar las siguientes acciones:
 
-Un **constructor** es un método especial que se utiliza para inicializar los objetos. Se llama automáticamente cuando se crea una instancia de la clase.
+1. Registrar Pacientes
+2. Registrar Médicos
+3. Registrar Consultorios
+4. **Registrar Consultas**
+5. Mostrar Pacientes
+6. Mostrar Médicos
+7. Mostrar Consultorios
+8. **Mostrar Consultas** 
+9. Mostrar Paciente por ID
+10. Mostrar Médico por ID
+11. Mostrar Consultorio por ID
+12. Listar Médicos por ID
+13. Listar Consultorios por ID
+14. Salir
 
-### Instanciación de Objetos
-
-La **instanciación** es el proceso de crear un objeto basado en una clase. En Java, esto se hace usando la palabra clave `new`.
 
 
