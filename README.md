@@ -1,37 +1,16 @@
-# 🚀 Mi Trabajo en Java: Definición de Clases, Creación de Constructores e Instanciación de Objetos
+# 🏥 Sistema de Gestión Hospitalaria - Tarea 12
 
-¡Hola! 👋 Este es un proyecto personal donde estoy trabajando en los fundamentos de Java: cómo definir una clase, crear un constructor e instanciar objetos. Acompáñame en este viaje para entender mejor estos conceptos y cómo se aplican en el desarrollo de software. 🎉
+¡Bienvenido a la **Tarea 12** del Sistema de Gestión Hospitalaria! En esta versión, el enfoque está en la **seguridad de los datos** y **validaciones críticas** para mejorar la integridad del sistema. Hemos implementado nuevas reglas para garantizar que no haya duplicidad en los registros y que solo trabajemos con datos válidos.
 
-## 📋 Tabla de Contenidos
+## 🚀 Novedades en esta versión
 
-1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
-2. [Conceptos Clave](#-conceptos-clave)
-   - [Clase](#clase)
-   - [Constructor](#constructor)
-   - [Instanciación de Objetos](#instanciación-de-objetos)
-3. [Ejemplo Práctico](#-ejemplo-práctico)
-4. [Cómo Ejecutar](#-cómo-ejecutar)
-5. [Contribuciones](#-contribuciones)
+### 🔍 Validación de Pacientes y Médicos
+- Al momento de registrar una nueva consulta, el sistema realiza una validación exhaustiva para asegurarse de que tanto el **paciente** como el **médico** ya existan en la base de datos.
+- Si alguno de ellos no está registrado, ¡no te preocupes! El sistema no permitirá que avances hasta que ambos estén correctamente registrados.
 
-## 🎯 Objetivo del Proyecto
+### 📞 Prevención de Números de Teléfono Duplicados
+- Evitamos confusiones al asegurar que cada número de teléfono sea **único**.
+- Si intentas registrar un paciente o médico con un número de teléfono que ya existe en el sistema, recibirás una alerta de inmediato. ¡Adiós a los números duplicados!
 
-El objetivo de este proyecto es demostrar mi comprensión sobre:
-- **Definir una clase en Java.**
-- **Crear un constructor adecuado para la inicialización de los objetos.**
-- **Instanciar objetos a partir de la clase y usar sus métodos.**
-
-## 📘 Conceptos Clave
-
-### Clase
-
-Una **clase** en Java es la estructura fundamental para crear objetos. Define atributos y métodos que describen el comportamiento y el estado de los objetos que se crearán a partir de ella.
-
-### Constructor
-
-Un **constructor** es un método especial que se utiliza para inicializar los objetos. Se llama automáticamente cuando se crea una instancia de la clase.
-
-### Instanciación de Objetos
-
-La **instanciación** es el proceso de crear un objeto basado en una clase. En Java, esto se hace usando la palabra clave `new`.
 
 
