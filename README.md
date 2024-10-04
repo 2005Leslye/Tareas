@@ -1,37 +1,40 @@
-# 🚀 Mi Trabajo en Java: Definición de Clases, Creación de Constructores e Instanciación de Objetos
+# 🚀 Sistema de Gestión de Usuarios - Tarea 1
 
-¡Hola! 👋 Este es un proyecto personal donde estoy trabajando en los fundamentos de Java: cómo definir una clase, crear un constructor e instanciar objetos. Acompáñame en este viaje para entender mejor estos conceptos y cómo se aplican en el desarrollo de software. 🎉
+¡Bienvenido al **Sistema de Gestión de Usuarios**! 🏥 Este proyecto es parte de la Tarea 1, en la que hemos introducido un nuevo y poderoso **tipo de usuario: Administrador**. Con esta implementación, los administradores ahora tienen el control total del sistema, y pueden gestionar a médicos, pacientes y más. Cada usuario tiene su propio menú personalizado y opciones según su rol en el hospital.
 
-## 📋 Tabla de Contenidos
+## 🌟 Funcionalidades Destacadas
 
-1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
-2. [Conceptos Clave](#-conceptos-clave)
-   - [Clase](#clase)
-   - [Constructor](#constructor)
-   - [Instanciación de Objetos](#instanciación-de-objetos)
-3. [Ejemplo Práctico](#-ejemplo-práctico)
-4. [Cómo Ejecutar](#-cómo-ejecutar)
-5. [Contribuciones](#-contribuciones)
+- **Administrador** 🛠️
+  - ¡El jefe de todo! Gestiona médicos, pacientes, consultorios, y usuarios.
+  - Control absoluto para la creación, edición y eliminación de usuarios.
 
-## 🎯 Objetivo del Proyecto
+- **Médico** 🩺
+  - Gestiona a tus pacientes y consulta el historial médico.
+  - Administra tus consultas asignadas y mantén todo bajo control.
 
-El objetivo de este proyecto es demostrar mi comprensión sobre:
-- **Definir una clase en Java.**
-- **Crear un constructor adecuado para la inicialización de los objetos.**
-- **Instanciar objetos a partir de la clase y usar sus métodos.**
+- **Paciente** 👤
+  - Visualiza tu historial médico y mantente al tanto de tus citas.
+  - Gestiona tus citas y revisa consultas médicas fácilmente.
 
-## 📘 Conceptos Clave
+## 🗂️ Menús Personalizados
 
-### Clase
+Cada usuario tiene un menú único con las funciones necesarias para su rol:
 
-Una **clase** en Java es la estructura fundamental para crear objetos. Define atributos y métodos que describen el comportamiento y el estado de los objetos que se crearán a partir de ella.
+- **Menú Administrador:** Accede a todas las funcionalidades del sistema: gestión total de usuarios, pacientes, médicos y consultorios.
+- **Menú Médico:** Gestiona a tus pacientes y lleva control de sus consultas.
+- **Menú Paciente:** Visualiza tu historial y organiza tus citas.
 
-### Constructor
 
-Un **constructor** es un método especial que se utiliza para inicializar los objetos. Se llama automáticamente cuando se crea una instancia de la clase.
 
-### Instanciación de Objetos
+## 🤖 ¿Cómo usar el sistema?
 
-La **instanciación** es el proceso de crear un objeto basado en una clase. En Java, esto se hace usando la palabra clave `new`.
+1. Inicia sesión con las credenciales de tu usuario (Administrador, Médico, Paciente).
+2. Cada tipo de usuario verá un menú específico adaptado a sus necesidades.
+3. ¡Disfruta gestionando de manera eficiente!
+
+
+
+
+
 
 
