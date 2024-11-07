@@ -1,37 +1,12 @@
-# 🚀 Mi Trabajo en Java: Definición de Clases, Creación de Constructores e Instanciación de Objetos
+🛒 Sistema de Gestión de Productos para Tiendas
 
-¡Hola! 👋 Este es un proyecto personal donde estoy trabajando en los fundamentos de Java: cómo definir una clase, crear un constructor e instanciar objetos. Acompáñame en este viaje para entender mejor estos conceptos y cómo se aplican en el desarrollo de software. 🎉
+Bienvenido al Sistema de Gestión de Productos. Este programa permite agregar productos, verificar que los datos sean correctos, calcular el valor total de inventario, y, lo mejor, manejar errores comunes con mensajes claros y personalizados.
 
-## 📋 Tabla de Contenidos
+🚀 Características
+Ingreso de Productos: Captura de datos básicos como nombre, precio y cantidad en inventario.
+Validación de Datos: El sistema verifica que el nombre, precio y cantidad sean válidos, evitando problemas comunes.
+Cálculo del Valor Total: Multiplica el precio por la cantidad para mostrar el valor total de cada producto en el inventario.
+Manejo de Errores Personalizado: Si se ingresa información incorrecta, el sistema lanza excepciones claras y útiles, evitando errores silenciosos.
 
-1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
-2. [Conceptos Clave](#-conceptos-clave)
-   - [Clase](#clase)
-   - [Constructor](#constructor)
-   - [Instanciación de Objetos](#instanciación-de-objetos)
-3. [Ejemplo Práctico](#-ejemplo-práctico)
-4. [Cómo Ejecutar](#-cómo-ejecutar)
-5. [Contribuciones](#-contribuciones)
-
-## 🎯 Objetivo del Proyecto
-
-El objetivo de este proyecto es demostrar mi comprensión sobre:
-- **Definir una clase en Java.**
-- **Crear un constructor adecuado para la inicialización de los objetos.**
-- **Instanciar objetos a partir de la clase y usar sus métodos.**
-
-## 📘 Conceptos Clave
-
-### Clase
-
-Una **clase** en Java es la estructura fundamental para crear objetos. Define atributos y métodos que describen el comportamiento y el estado de los objetos que se crearán a partir de ella.
-
-### Constructor
-
-Un **constructor** es un método especial que se utiliza para inicializar los objetos. Se llama automáticamente cuando se crea una instancia de la clase.
-
-### Instanciación de Objetos
-
-La **instanciación** es el proceso de crear un objeto basado en una clase. En Java, esto se hace usando la palabra clave `new`.
-
-
+Captura de datos: Solicita al usuario ingresar el nombre, precio, y cantidad.
+Manejo de Errores: Utiliza try-catch para capturar cualquier error de entrada y muestra mensajes claros.
